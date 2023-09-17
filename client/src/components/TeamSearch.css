@@ -1,0 +1,63 @@
+/* TeamSearch.css */
+.search-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.stats-table-container {
+    margin-top: 20px;
+}
+
+.annotation {
+    font-size: 14px;
+    text-align: center;
+    color: #000000; /* Greyed color */
+    margin-top: 4px; /* Add spacing above the annotation */
+}
+
+.stats-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-container {
+    margin-right: 10px;
+}
+
+.stats-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.stats-table th {
+    position: sticky;
+    top: 0;
+    background-color: #f2f2f2; /* Background color for the sticky header */
+    z-index: 1;
+}
+
+.stats-table th,
+.stats-table td {
+    padding: 8px;
+    border: 1px solid #fffefe;
+    text-align: center;
+}
+
+.table-scroll {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.loading {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.no-stats {
+    margin-top: 20px;
+    font-weight: bold;
+    color: red;
+}

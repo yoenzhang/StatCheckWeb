@@ -1,0 +1,91 @@
+/* TeamSearch.css */
+
+/* General styling for the search container */
+.search-container {
+    text-align: center;
+    padding: 20px;
+    max-width: 800px;
+    /* Adjust the max-width to your desired width */
+    margin: 0 auto;
+    /* Center the container horizontally */
+}
+
+.search-container h2 {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+/* Style for the input element */
+.search-container input[type="text"] {
+    width: 30%;
+    /* Set the input width to 80% of its container */
+    padding: 10px;
+    margin-right: 10px;
+    /* Add a margin for spacing */
+}
+
+/* Style for the button */
+.search-container button {
+    padding: 10px 20px;
+}
+
+.stats-table-container {
+    display: flex;
+    flex-direction: column;
+    /* Change to column */
+    align-items: center;
+    /* Change to center */
+    justify-content: center;
+    /* Add to center vertically */
+}
+
+/* Adjusted styling for the table headers to align them properly */
+.stats-header {
+    flex-shrink: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* Center text in the header */
+}
+
+/* Adjusted margin for the table scroll for better spacing */
+.table-scroll {
+    flex-grow: 1;
+    max-width: 1000px;
+    overflow: auto;
+    margin-top: 10px;
+    /* Reduced margin-top */
+}
+
+/* Added margin-top to the button container to separate it from the table */
+.stats-table-container>button {
+    margin-top: 10px;
+}
+
+/* Styling for the main stats table */
+.stats-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.stats-table th,
+.stats-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.stats-table th {
+    background-color: #f2f2f2;
+}
+
+.stat-cell {
+    font-family: monospace;
+}
+
+.no-stats {
+    margin-top: 20px;
+}
